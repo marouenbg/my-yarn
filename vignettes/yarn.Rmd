@@ -18,8 +18,9 @@ The goal of yarn is to expedite large RNA-seq analyses using a combination of pr
 You can install yarn from github with:
 
 ```R
-source("http://bioconductor.org/biocLite.R")
-biocLite("yarn")
+if (!requireNamespace("BiocManager", quietly=TRUE))
+    install.packages("BiocManager")
+BiocManager::install("yarn")
 ```
 
 ## Quick Introduction
