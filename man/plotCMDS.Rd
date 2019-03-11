@@ -44,4 +44,3 @@ res <- plotCMDS(skin,pch=21,bg=factor(pData(skin)$SMTSD))
 # textxy(X=res[,1],Y=res[,2],labs=rownames(res))
 }
 }
-

@@ -26,4 +26,3 @@ GTEx Consortium, 2015. The Genotype-Tissue Expression (GTEx) pilot analysis: Mul
 (\href{http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4547484/}{PubMed})
 }
 \keyword{datasets}
-

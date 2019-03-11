@@ -35,4 +35,3 @@ data(skin)
 normalizeTissueAware(skin,"SMTSD")
 
 }
-

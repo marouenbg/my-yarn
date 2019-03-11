@@ -4,7 +4,8 @@
 \alias{plotDensity}
 \title{Density plots of columns in a matrix}
 \usage{
-plotDensity(obj, groups = NULL, normalized = FALSE, legendPos = NULL, ...)
+plotDensity(obj, groups = NULL, normalized = FALSE, legendPos = NULL,
+  ...)
 }
 \arguments{
 \item{obj}{ExpressionSet object}
@@ -32,4 +33,3 @@ plotDensity(filtData,groups="SMTSD",legendPos="topleft")
 plotDensity(filtData,groups="SMTSD")
 
 }
-

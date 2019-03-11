@@ -34,4 +34,3 @@ checkTissuesToMerge(skin,'SMTS','SMTSD')
 \seealso{
 checkTissuesToMerge
 }
-

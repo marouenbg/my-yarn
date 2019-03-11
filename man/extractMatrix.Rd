@@ -27,4 +27,3 @@ head(yarn:::extractMatrix(skin,normalized=FALSE,log=TRUE))
 head(yarn:::extractMatrix(skin,normalized=FALSE,log=FALSE))
 
 }
-

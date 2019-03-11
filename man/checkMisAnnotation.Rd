@@ -5,8 +5,8 @@
 \title{Check for wrong annotation of a sample using classical MDS and control genes.}
 \usage{
 checkMisAnnotation(obj, phenotype, controlGenes = "all",
-  columnID = "chromosome_name", plotFlag = TRUE, legendPosition = NULL,
-  ...)
+  columnID = "chromosome_name", plotFlag = TRUE,
+  legendPosition = NULL, ...)
 }
 \arguments{
 \item{obj}{ExpressionSet object.}
@@ -34,4 +34,3 @@ data(bladder)
 checkMisAnnotation(bladder,'GENDER',controlGenes='Y',legendPosition='topleft')
 
 }
-

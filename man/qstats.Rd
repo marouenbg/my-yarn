@@ -23,4 +23,3 @@ list of statistics
 \description{
 This function was directly borrowed from github user kokrah.
 }
-

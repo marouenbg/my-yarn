@@ -7,8 +7,8 @@
 \href{https://raw.githubusercontent.com/kokrah/qsmooth/master/R/qsmooth.r}{Kwame Okrah's qsmooth R package}
 }
 \usage{
-qsmooth(obj, groups, norm.factors = NULL, plot = FALSE, window = 0.05,
-  log = TRUE)
+qsmooth(obj, groups, norm.factors = NULL, plot = FALSE,
+  window = 0.05, log = TRUE)
 }
 \arguments{
 \item{obj}{for counts use log2(raw counts + 1)), for MA use log2(raw intensities)}
@@ -34,4 +34,3 @@ data(skin)
 head(yarn:::qsmooth(skin,groups=pData(skin)$SMTSD))
 
 }
-

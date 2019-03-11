@@ -32,4 +32,3 @@ filterLowGenes(skin,'SMTSD')
 \seealso{
 \link[edgeR]{cpm} function defined in the edgeR package.
 }
-
