@@ -27,7 +27,7 @@
 #' colnames(fData(skin)) = paste("names",1:6)
 #' biomart<-"ENSEMBL_MART_ENSEMBL";
 #' genes <- sapply(strsplit(rownames(skin),split="\\."),function(i)i[1])
-#' newskin <-annotateFromBiomart(skin,genes=genes,biomar=biomart,host=host)
+#' newskin <-annotateFromBiomart(skin,genes=genes,biomar=biomart)
 #' head(fData(newskin)[,7:11])
 #'
 annotateFromBiomart <- function(obj,genes=featureNames(obj),filters="ensembl_gene_id",
